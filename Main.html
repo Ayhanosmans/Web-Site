@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Ana.css">
+    <title>Giriş / Kayıt</title>
+</head>
+<body>
+
+    <header>
+        <h2 class="logo">Ayhan Group</h2>
+        <nav class="navigation">
+            <a href="#">Ana Sayfa</a>
+            <a href="#">Hakkımızda</a>
+            <a href="#">Hizmetlerimiz</a>
+            <a href="#">Bize Ulaşın</a>
+            <button class="btnLogin-popup">Giriş / Kayıt</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        <div class="form-box login">
+            <h2>Giris Yap</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="Email" required>
+                    <label>E-Mail</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="Parola" required>
+                    <label>Parola</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                    Beni Hatırla</label>
+                    <a href="#">Parolanızı Unuttunuz Mu ?</a>
+                </div>
+                <button type="submit" class="btn">Giriş Yap</button>
+                <div class="login-register">
+                    <p>Hesabınız Yok Mu ? <a href="#" class="register-link">Kaydolun</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
